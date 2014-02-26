@@ -4,7 +4,11 @@
   "description": "A lightweight and promise-based XHR wrapper.",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "segmentio/extend": "*",
+    "yields/xhr": "*",
+    "imiric/es6-promise": "*"
+  },
   "development": {},
   "license": "MIT",
   "main": "index.js",
