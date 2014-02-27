@@ -31,6 +31,11 @@ function Ajax(method, url, options, data) {
     return new Promise(function(resolve, reject) {
         xhr.open(method, url, options.async);
 
+        /* set request headers */
+        Object.keys(options.headers).forEach(function(header) {
+            xhr.setRequestHeader(header, options.headers[header]);
+        });
+
         xhr.onreadystatechange = function() {
             switch(xhr.readyState) {
                 case XHR_DONE:
