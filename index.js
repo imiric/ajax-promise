@@ -56,7 +56,7 @@ function Ajax(method, url, options, data) {
             }
         };
 
-        xhr.send();
+        xhr.send(data);
     });
 };
 
