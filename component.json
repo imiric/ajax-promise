@@ -3,7 +3,7 @@
   "repo": "imiric/ajax-promise",
   "description": "A lightweight and promise-based XHR wrapper.",
   "version": "0.0.1",
-  "keywords": [],
+  "keywords": ["xhr", "ajax", "promise"],
   "dependencies": {
     "segmentio/extend": "*",
     "yields/xhr": "*",
